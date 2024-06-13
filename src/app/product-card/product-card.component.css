@@ -1,0 +1,30 @@
+*{
+  background-color: rgb(231, 231, 231);
+}
+.row{
+  position: relative;
+  transition: all .40s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5%;
+}
+.card-title{
+  display: flex;
+  justify-content: center;
+}
+.card-details{
+  display: flex;
+  justify-content: center;
+}
+.row img{
+  width: auto;
+  height: 400px;
+  transition: all .40s;
+}
+
+.row button{
+  max-width: 90%;
+  max-height: 60px;
+  background-color: gray;
+}
